@@ -16,6 +16,7 @@ import java.util.Map;
 public class PurchaseRequestDTO {
 
     private Long clientId;
-    private List<String> bookIsbn;
-    private Map<String, Integer> quantities;
+    private Map<String, Integer> bookQuantities;
+
+
 }
